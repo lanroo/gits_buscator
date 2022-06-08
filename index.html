@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=width-device, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>NOW GIF FINDER</title>
+
+  <link rel="icon" href="./images/logo-img.png" sizes="100%" />
+  
+</head>
+<body>
+    <div class="navbar navbar-dark bg-dark">
+      <div class="container d-flex justify-content-between">
+        <a href="#" class="navbar-brand"><strong>NOW GIF</strong></a>
+        <nav class="nav">
+          <a href="button-about" class="btn btn-outline-light">Sobre</a>
+        </nav>
+        
+      </div>
+    </div>
+
+    <div class="header">
+      <div class="logo">
+          <img class="logoimg" src="./images/logo-img.png" />
+      </div>
+  </header>
+  <main class="">
+    <section class="jumbotron text-center">
+      <div class="container">
+        <h3 class="jumbotron-heading"> Encontre o gif:</h3>
+        <form class="d-flex justify-content-center align-items-center">
+          <div class="form-group col-6">
+            <input type="text" class="form-control form-control-lg" id="buscadorGif" placeholder="Digite o tipo..." >
+          </div>
+        </form>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row gifs" id="gifsResultado"></div>
+      </div>
+    </section>
+  </main>
+
+  <script type="text/javascript" src="./js/jquery-3.6.0.min.js "></script>
+  <script
+    type="text/javascript"
+    src="./js/bootstrap.bundle.min.js"
+  ></script>
+  <script type="text/javascript" src="./js/script.js"></script>
+</body>
+</html>
